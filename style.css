@@ -1,0 +1,78 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 20px;
+  color: #222;
+  line-height: 1.6;
+}
+
+header { margin-bottom: 40px; }
+
+h1 { margin-bottom: 4px; font-size: 2em; }
+
+.tagline {
+  color: #555;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.contact-links {
+  margin-top: 10px;
+}
+
+.contact-links a {
+  margin-right: 15px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover { text-decoration: underline; }
+
+section { margin-bottom: 35px; }
+
+h2 {
+  font-size: 1.2em;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.edu-degree, .project-title { font-weight: 600; margin-bottom: 2px; }
+.edu-school { color: #444; margin: 2px 0; }
+.edu-year, .project-stack { color: #777; font-size: 0.9em; margin: 2px 0; }
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #f0f4f8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.project-item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #0066cc;
+}
+
+.project-desc { margin: 8px 0; }
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
